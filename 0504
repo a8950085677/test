@@ -1,0 +1,23 @@
+1.Создать веб-страницу со следующим кодом:
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+function ButtonClick1()
+{
+let a=eval(document.getElementById('text1').value);
+document.getElementById('text1').value=a;
+alert(a);
+
+}
+</script>
+</head>
+<body>
+<input type=text id=text1>
+<input type=button onClick='ButtonClick1();'>
+<body>
+</html>
+2. Проверить работу программу, умеет ли она считать
+3. Проверить работу программы, выводит ли она alert()
+4. Если работает alert, ввести свой текст
+5. Переписать пример на python или basic
